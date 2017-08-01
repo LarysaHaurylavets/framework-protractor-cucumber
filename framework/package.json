@@ -8,6 +8,7 @@
   "author": "Larysa Haurylavets",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.1.0",
     "cucumber": "^2.3.1",
     "gulp": "^3.9.1",
     "gulp-cucumber": "0.0.22",
