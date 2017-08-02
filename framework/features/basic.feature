@@ -3,7 +3,7 @@ Feature: Test site Logic.by
 	Scenario: Test authorization page
 		Given I am on "auth" page
 		Then title should be "Вход в личный кабинет"
-		When I submit login form with email "glar4ik@gmail.com" and password "real82"
+		When I submit login form with email "glar4ik@gmail.com" and password "1234"
 		Then User page should be displayed	
 		
 
@@ -19,7 +19,7 @@ Feature: Test site Logic.by
 		Then title should be "Центр развития логики и решения логических задач в Минске."
 		Then the main logo should be visible
 		When I open login form
-		When I submit login form with email "glar4ik@gmail.com" and password "real82"
+		When I submit login form with email "glar4ik@gmail.com" and password "1234"
 		Then User page should be displayed
 		Then I choose logic game 
 		Then I start game
