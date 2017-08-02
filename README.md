@@ -4,7 +4,7 @@
 
 Preconditions:
 
-    npm install -g grunt-cli
+    npm install -g gulp-cli
 
 Open a command window and run:
 
