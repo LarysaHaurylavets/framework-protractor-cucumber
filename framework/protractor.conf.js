@@ -21,9 +21,9 @@ exports.config = {
         chromeOptions : {
             args: [platforms[process.env.PLATFORM]]
         },
-        'mox:firefoxOptions': {
-            args: [platforms[process.env.PLATFORM]]
-        }
+//         'moz:firefoxOptions': {
+//             args: [platforms[process.env.PLATFORM]]
+//         }
     },
     
     cucumberOpts: {
